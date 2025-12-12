@@ -1,0 +1,19 @@
+{
+  "name": "realtime-notify-server",
+  "version": "1.0.0",
+  "description": "Real-time notification server: Express + Socket.io + Redis pub/sub",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "socket.io": "^4.7.5"
+  }
+}
